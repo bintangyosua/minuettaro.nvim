@@ -48,3 +48,13 @@ opt.showmode = false
 opt.foldmethod = "expr"
 opt.foldexpr = "nvim_treesitter#foldexpr()"
 opt.foldlevel = 99
+
+-- Powershell as default shell
+vim.o.shell = "powershell.exe"
+vim.o.shellxquote = ""
+vim.o.shellcmdflag = "-NoLogo -NoProfile -ExecutionPolicy RemoteSigned -Command "
+vim.o.shellquote = ""
+vim.o.shellpipe = "| Out-File -Encoding UTF8 %s"
+vim.o.shellredir = "| Out-File -Encoding UTF8 %s"
+
+
