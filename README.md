@@ -7,23 +7,23 @@
 
 ## Key Features
 
-1. Minimalistic Design: The configuration follows a minimalist design approach, focusing on essential plugins and settings to enhance productivity without unnecessary clutter.
-2. Plugin Management: Minuettaro utilizes a plugin management system [lazy.nvim](https://github.com/folke/lazy.nvim) to seamlessly integrate useful plugins for code editing, syntax highlighting, and more. 
-3. Custom Keybindings: The configuration includes custom keybindings to streamline common tasks and improve workflow efficiency. These keybindings are thoughtfully designed to enhance navigation, editing, and code manipulation within Neovim.
-4. Syntax Highlighting and Linting: Minuettaro incorporates syntax highlighting and linting features to help developers identify errors and maintain code quality while writing code in Neovim.
-5. Efficient Workflow: With a focus on speed and performance, Minuettaro ensures a smooth and responsive editing experience, allowing developers to focus on writing code without distractions.
-6. Git Integration: Minuettaro provides seamless Git integration within Neovim. This allows developers to perform Git operations such as commit, push, pull, branch management, and diff viewing directly from the Neovim interface, enhancing version control workflow efficiency.
-7. Popup Terminal and Easy Navigation: minuettaro.nvim features a popup terminal that allows developers to open and interact with a terminal window without leaving the Neovim environment. This enables quick access to command line tools and enhances productivity.
+1. **Minimalistic Design:** The configuration follows a minimalist design approach, focusing on essential plugins and settings to enhance productivity without unnecessary clutter.
+2. **Plugin Management:** Minuettaro utilizes a plugin management system **[lazy.nvim](https://github.com/folke/lazy.nvim)** to seamlessly integrate useful plugins for code editing, syntax highlighting, and more. 
+3. **Custom Keybindings:** The configuration includes custom keybindings to streamline common tasks and improve workflow efficiency. These keybindings are thoughtfully designed to enhance navigation, editing, and code manipulation within Neovim.
+4. **Syntax Highlighting and Linting:** Minuettaro incorporates syntax highlighting and linting features to help developers identify errors and maintain code quality while writing code in Neovim.
+5. **Efficient Workflow:** With a focus on speed and performance, Minuettaro ensures a smooth and responsive editing experience, allowing developers to focus on writing code without distractions.
+6. **Git Integration:** Minuettaro provides seamless Git integration within Neovim. This allows developers to perform Git operations such as commit, push, pull, branch management, and diff viewing directly from the Neovim interface, enhancing version control workflow efficiency.
+7. **Popup Terminal and Easy Navigation:** minuettaro.nvim features a popup terminal that allows developers to open and interact with a terminal window without leaving the Neovim environment. This enables quick access to command line tools and enhances productivity.
 
 ## Requirements
 
-1. Neovim 0.9.5 or later
-2. LLVM or Zig programming language for treesitter parser
-3. Tar, curl, and git
+1. **Neovim** 0.9.5 or later
+2. **LLVM** or **Zig** programming language for treesitter parser
+3. **Tar**, **Curl**, and **Git**
 
 ## Usage
 
-To use minuettaro.nvim, clone the repository and follow the setup instructions provided in the README.md file. Customize the configuration to suit your preferences and coding style, and enjoy an optimized Neovim environment for your coding projects.
+To use [minuettaro.nvim](https://github.com/bintangyosua/minuettaro.nvim), clone the repository and follow the setup instructions provided in the README.md file. Customize the configuration to suit your preferences and coding style, and enjoy an optimized Neovim environment for your coding projects.
 
 ## Plugins Used
 
@@ -41,4 +41,4 @@ To use minuettaro.nvim, clone the repository and follow the setup instructions p
 
 ## Contributions and Feedback
 
-Contributions to Minuettaro are welcome via pull requests. If you have any feedback, suggestions, or issues, feel free to open an issue on the GitHub repository.
+Contributions to **[lazy.nvim](https://github.com/folke/lazy.nvim)** are welcome via pull requests. If you have any feedback, suggestions, or issues, feel free to open an issue on the GitHub repository.
