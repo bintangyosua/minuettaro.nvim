@@ -19,6 +19,9 @@ opt.number = true
 opt.relativenumber = true
 opt.termguicolors = true
 opt.colorcolumn = "100"
+opt.textwidth = 60
+-- opt.columns = 100
+opt.linebreak = true
 opt.signcolumn = "yes"
 opt.cmdheight = 1
 opt.scrolloff = 10
@@ -56,5 +59,3 @@ vim.o.shellcmdflag = "-NoLogo -NoProfile -ExecutionPolicy RemoteSigned -Command 
 vim.o.shellquote = ""
 vim.o.shellpipe = "| Out-File -Encoding UTF8 %s"
 vim.o.shellredir = "| Out-File -Encoding UTF8 %s"
-
-
