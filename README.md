@@ -1,5 +1,5 @@
 <h1 align="center">Minuettaro Neovim Configuration</h1>
-<p align="center">minuettaro.nvim is a customized Neovim configuration created by Bintang Yosua. This Neovim setup is designed to provide a streamlined and efficient development environment for coding enthusiasts.</p>
+<p align="center"><a href="https://github.com/bintangyosua/minuettaro.nvim">minuettaro.nvim</a> is a customized Neovim configuration created by Bintang Yosua. This Neovim setup is designed to provide a streamlined and efficient development environment for coding enthusiasts.</p>
 <p align="center">
 <!-- ![Snapshot of this configuration](./assets/images/Snapshot.png) -->
     <img src="./assets/images/Snapshot.png" alt="Snapshot">
