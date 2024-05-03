@@ -23,7 +23,7 @@
 
 ## Usage
 
-To use [minuettaro.nvim](https://github.com/bintangyosua/minuettaro.nvim), clone the repository and follow the setup instructions provided in the README.md file. Customize the configuration to suit your preferences and coding style, and enjoy an optimized Neovim environment for your coding projects.
+To use **[minuettaro.nvim](https://github.com/bintangyosua/minuettaro.nvim)**, clone the repository and follow the setup instructions provided in the README.md file. Customize the configuration to suit your preferences and coding style, and enjoy an optimized Neovim environment for your coding projects.
 
 ## Plugins Used
 
@@ -41,4 +41,4 @@ To use [minuettaro.nvim](https://github.com/bintangyosua/minuettaro.nvim), clone
 
 ## Contributions and Feedback
 
-Contributions to **[lazy.nvim](https://github.com/folke/lazy.nvim)** are welcome via pull requests. If you have any feedback, suggestions, or issues, feel free to open an issue on the GitHub repository.
+Contributions to **[minuettaro.nvim](https://github.com/bintangyosua/minuettaro.nvim)** are welcome via pull requests. If you have any feedback, suggestions, or issues, feel free to open an issue on the GitHub repository.
