@@ -1,6 +1,1 @@
-require('config')
-
-
-
-
-
+require("config")

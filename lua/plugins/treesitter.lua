@@ -1,31 +1,30 @@
 return {
-  "nvim-treesitter/nvim-treesitter", 
-  build = ":TSUpdate",
-  lazy = false,
-  config = function()
+	"nvim-treesitter/nvim-treesitter",
+	build = ":TSUpdate",
+	lazy = false,
+	config = function()
+		local configs = require("nvim-treesitter.configs")
 
-    local configs = require("nvim-treesitter.configs")
+		require("nvim-treesitter.install").compilers = { "clang", "zig" }
 
-    require 'nvim-treesitter.install'.compilers = { "clang", "zig" }
-
-    configs.setup({
-      ensure_installed = {
-        "lua", 
-        "json",
-        "typescript",
-        "javascript", 
-        "go",
-        "tsx",
-        "css",
-        "html",
-        "rust",
-        "php",
-        "markdown",
-      },
-      sync_install = false,
-      highlight = { enable = true },
-      indent = { enable = true },  
-      auto_install = true
-    })
-  end
+		configs.setup({
+			ensure_installed = {
+				"lua",
+				"json",
+				"typescript",
+				"javascript",
+				"go",
+				"tsx",
+				"css",
+				"html",
+				"rust",
+				"php",
+				"markdown",
+			},
+			sync_install = false,
+			highlight = { enable = true },
+			indent = { enable = true },
+			auto_install = true,
+		})
+	end,
 }
