@@ -39,6 +39,7 @@ return {
 					"scss",
 					"svelte",
 					"typescriptreact",
+					"markdown",
 				},
 				init_options = {
 					html = {
@@ -52,6 +53,12 @@ return {
 
 			lspconfig.html.setup({})
 			lspconfig.cssls.setup({})
+
+      lspconfig.grammarly.setup({
+        on_attach = function(client)
+          client.server_capabilities.documentFormattingProvider = true
+        end
+      })
 
 			-- lsp lua
 			lspconfig.lua_ls.setup({

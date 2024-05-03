@@ -20,6 +20,7 @@ return {
 				"rust",
 				"php",
 				"markdown",
+        "markdown_inline",
 			},
 			sync_install = false,
 			highlight = { enable = true },
