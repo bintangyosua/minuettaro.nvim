@@ -11,34 +11,32 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
-
 require("config.globals")
 require("config.options")
 require("config.keymaps")
 
-
 local opts = {
-	defaults = {
-		lazy = true
-	},
-	install = {
-		colorscheme = {"kanagawa"},
-	},
-	rtp = {
-		disabled_plugins = {
-			"gzip",
+  defaults = {
+    lazy = true,
+  },
+  install = {
+    colorscheme = { "kanagawa" },
+  },
+  rtp = {
+    disabled_plugins = {
+      "gzip",
       "matchit",
       "matchparen",
-			"netrwPlugin",
+      "netrwPlugin",
       "tarPlugin",
       "tohtml",
-			"tutor",
+      "tutor",
       "zipPlugin",
-		}
-	},
-	change_detection = {
-		notify = true,
-	},
+    },
+  },
+  change_detection = {
+    notify = true,
+  },
 }
 
 require("lazy").setup("plugins")
