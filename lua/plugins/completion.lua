@@ -2,6 +2,7 @@ return {
 	{
 		"L3MON4D3/LuaSnip",
 		dependencies = { "rafamadriz/friendly-snippets" },
+    lazy = false,
 	},
 	{
 		"saadparwaiz1/cmp_luasnip",
@@ -9,9 +10,11 @@ return {
 		"hrsh7th/cmp-nvim-lsp",
 		"hrsh7th/cmp-path",
 		"hrsh7th/cmp-nvim-lua",
+    lazy = false,
 	},
 	{
 		"hrsh7th/nvim-cmp",
+    lazy = false,
 		config = function()
 			local cmp = require("cmp")
 			require("luasnip.loaders.from_vscode").lazy_load()
@@ -96,6 +99,7 @@ return {
 	},
 	{
 		"windwp/nvim-autopairs",
+    lazy = false,
 		config = function()
 			require("nvim-autopairs").setup({})
 			local cmp_autopairs = require("nvim-autopairs.completion.cmp")

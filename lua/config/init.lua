@@ -11,16 +11,12 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
-require("config.globals")
-require("config.options")
-require("config.keymaps")
-
 local opts = {
 	defaults = {
 		lazy = true,
 	},
 	install = {
-		colorscheme = { "kanagawa" },
+		colorscheme = { "catppuccin" },
 	},
 	rtp = {
 		disabled_plugins = {
@@ -35,8 +31,13 @@ local opts = {
 		},
 	},
 	change_detection = {
-		notify = true,
+		notify = false,
 	},
 }
 
-require("lazy").setup("plugins")
+require("config.globals")
+require("config.options")
+require("config.keymaps")
+require("lazy").setup("plugins", opts)
+-- require("lazy").setup("plugins")
+

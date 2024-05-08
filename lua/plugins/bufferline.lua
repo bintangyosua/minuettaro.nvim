@@ -6,6 +6,6 @@ return {
 		require("bufferline").setup({})
 		vim.keymap.set("n", "<tab>", ":BufferLineCycleNext<cr>", { noremap = true, silent = true })
 		vim.keymap.set("n", "<s-tab>", ":BufferLineCyclePrev<cr>", { noremap = true, silent = true })
-		vim.keymap.set("n", "<leader>x", ":bdelete!<cr>", { noremap = true, silent = true })
+		vim.keymap.set("n", "<leader>x", ":bdelete!<cr>", { noremap = true, silent = true, desc = "Delete current buffer" })
 	end,
 }

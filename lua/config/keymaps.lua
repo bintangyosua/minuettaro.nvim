@@ -2,7 +2,7 @@ local keymap = vim.keymap
 
 local opts = { noremap = true, silent = true }
 
--- Direcroey Nacigation
+-- Directory Nacigation
 keymap.set("n", "<leader>m", ":NvimTreeFocus<CR>", opts)
 keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>", opts)
 

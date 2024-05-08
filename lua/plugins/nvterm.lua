@@ -1,5 +1,6 @@
 return {
 	"NvChad/nvterm",
+  lazy = false,
 	config = function()
 		require("nvterm").setup()
 

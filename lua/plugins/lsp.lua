@@ -1,6 +1,7 @@
 return {
 	{
 		"williamboman/mason.nvim",
+    lazy = false,
 		config = function()
 			require("mason").setup({})
 		end,
@@ -23,6 +24,7 @@ return {
 	},
 	{
 		"neovim/nvim-lspconfig",
+    lazy = false,
 		config = function()
 			local lspconfig = require("lspconfig")
 			local emmetCapabilities = vim.lsp.protocol.make_client_capabilities()
